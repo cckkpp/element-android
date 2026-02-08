@@ -144,8 +144,7 @@ class MainActivity : VectorBaseActivity<ActivityMainBinding>(), UnlockedActivity
             android.view.WindowManager.LayoutParams.FLAG_SECURE,
             android.view.WindowManager.LayoutParams.FLAG_SECURE
         )
-        // ==================================================================
-
+        
         shortcutsHandler.updateShortcutsWithPreviousIntent()
 
         startAppViewModel.onEach {
