@@ -54,8 +54,8 @@ class ConfigureAndStartSessionUseCaseTest {
 
     @Before
     fun setup() {
-        mockkStatic("im.vector.app.core.extensions.SessionKt")
-        mockkStatic("im.vector.app.features.session.SessionCoroutineScopesKt")
+        mockkStatic("com.fvslnlqb.chat.core.extensions.SessionKt")
+        mockkStatic("com.fvslnlqb.chat.features.session.SessionCoroutineScopesKt")
     }
 
     @After

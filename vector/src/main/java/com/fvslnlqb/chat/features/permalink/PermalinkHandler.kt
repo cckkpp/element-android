@@ -57,7 +57,7 @@ class PermalinkHandler @Inject constructor(
             navigationInterceptor: NavigationInterceptor? = null,
             buildTask: Boolean = false
     ): Boolean {
-        val supportedHosts = fragmentActivity.resources.getStringArray(im.vector.app.config.R.array.permalink_supported_hosts)
+        val supportedHosts = fragmentActivity.resources.getStringArray(com.fvslnlqb.chat.config.R.array.permalink_supported_hosts)
         return when {
             deepLink == null -> false
             deepLink.isIgnored() -> true

@@ -60,7 +60,7 @@ class VectorFirebaseMessagingService : FirebaseMessagingService() {
                         pushKey = token,
                         gateway = mdmService.getData(
                                 mdmData = MdmData.DefaultPushGatewayUrl,
-                                defaultValue = getString(im.vector.app.config.R.string.pusher_http_url),
+                                defaultValue = getString(com.fvslnlqb.chat.config.R.string.pusher_http_url),
                         ),
                 )
             }

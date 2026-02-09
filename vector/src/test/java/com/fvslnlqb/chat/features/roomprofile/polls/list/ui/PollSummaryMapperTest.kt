@@ -39,7 +39,7 @@ internal class PollSummaryMapperTest {
 
     @Before
     fun setup() {
-        mockkStatic("im.vector.app.core.extensions.TimelineEventKt")
+        mockkStatic("com.fvslnlqb.chat.core.extensions.TimelineEventKt")
     }
 
     @After

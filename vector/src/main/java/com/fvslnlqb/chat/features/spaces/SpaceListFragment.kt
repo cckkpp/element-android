@@ -35,7 +35,7 @@ import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import javax.inject.Inject
 
 /**
- * This Fragment is displayed in the navigation drawer [im.vector.app.features.home.HomeDrawerFragment] and
+ * This Fragment is displayed in the navigation drawer [com.fvslnlqb.chat.features.home.HomeDrawerFragment] and
  * is displaying the space hierarchy, with some actions on Spaces.
  *
  * In the New App Layout this fragment will instead be displayed in a Bottom Sheet [SpaceListBottomSheet]

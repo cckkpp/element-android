@@ -76,7 +76,7 @@ class RoomDirectoryListCreator @Inject constructor(
         )
 
         // Add custom directory servers, form the config file, excluding the current user homeserver
-        stringArrayProvider.getStringArray(im.vector.app.config.R.array.room_directory_servers)
+        stringArrayProvider.getStringArray(com.fvslnlqb.chat.config.R.array.room_directory_servers)
                 .filter { it != userHsName }
                 .forEach {
                     // Use the server name as a default display name

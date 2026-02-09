@@ -44,7 +44,7 @@ internal class VectorSettingsPushRuleNotificationViewModelTest {
 
     @Before
     fun setup() {
-        mockkStatic("im.vector.app.features.settings.notifications.NotificationIndexKt")
+        mockkStatic("com.fvslnlqb.chat.features.settings.notifications.NotificationIndexKt")
         every { fakeGetPushRulesOnInvalidStateUseCase.execute(any()) } returns emptyList()
     }
 

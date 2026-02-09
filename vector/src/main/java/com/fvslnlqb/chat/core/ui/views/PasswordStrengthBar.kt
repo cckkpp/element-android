@@ -78,7 +78,7 @@ class PasswordStrengthBar @JvmOverloads constructor(
         }
 
     init {
-        inflate(context, im.vector.app.R.layout.view_password_strength_bar, this)
+        inflate(context, com.fvslnlqb.chat.R.layout.view_password_strength_bar, this)
         views = ViewPasswordStrengthBarBinding.bind(this)
         orientation = HORIZONTAL
         strength = 0

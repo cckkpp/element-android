@@ -80,5 +80,5 @@ class ServerUrlsRepository @Inject constructor(
     /**
      * Return default homeserver url from resources.
      */
-    private fun getDefaultHomeServerUrl() = stringProvider.getString(im.vector.app.config.R.string.matrix_org_server_url)
+    private fun getDefaultHomeServerUrl() = stringProvider.getString(com.fvslnlqb.chat.config.R.string.matrix_org_server_url)
 }

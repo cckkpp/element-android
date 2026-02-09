@@ -58,7 +58,7 @@ class SignOutBottomSheetActionButton @JvmOverloads constructor(
         }
 
     init {
-        inflate(context, im.vector.app.R.layout.view_sign_out_bottom_sheet_action_button, this)
+        inflate(context, com.fvslnlqb.chat.R.layout.view_sign_out_bottom_sheet_action_button, this)
         views = ViewSignOutBottomSheetActionButtonBinding.bind(this)
 
         context.withStyledAttributes(attrs, R.styleable.SignOutBottomSheetActionButton) {

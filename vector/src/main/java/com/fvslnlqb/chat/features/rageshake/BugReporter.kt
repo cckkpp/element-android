@@ -518,8 +518,8 @@ class BugReporter @Inject constructor(
         return context.getString(
                 when (reportType) {
                     ReportType.AUTO_UISI_SENDER,
-                    ReportType.AUTO_UISI -> im.vector.app.config.R.string.bug_report_auto_uisi_app_name
-                    else -> im.vector.app.config.R.string.bug_report_app_name
+                    ReportType.AUTO_UISI -> com.fvslnlqb.chat.config.R.string.bug_report_auto_uisi_app_name
+                    else -> com.fvslnlqb.chat.config.R.string.bug_report_app_name
                 }
         )
     }

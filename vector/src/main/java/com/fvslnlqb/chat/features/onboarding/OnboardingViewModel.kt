@@ -114,7 +114,7 @@ class OnboardingViewModel @AssistedInject constructor(
         }
     }
 
-    private val matrixOrgUrl = stringProvider.getString(im.vector.app.config.R.string.matrix_org_server_url).ensureTrailingSlash()
+    private val matrixOrgUrl = stringProvider.getString(com.fvslnlqb.chat.config.R.string.matrix_org_server_url).ensureTrailingSlash()
     private val defaultHomeserverUrl = mdmService.getData(MdmData.DefaultHomeserverUrl, matrixOrgUrl)
 
     private val registrationWizard: RegistrationWizard

@@ -143,7 +143,7 @@ class DecryptionFailureTrackerTest {
 
         verify {
             fakeAnalyticsTracker.capture(
-                    im.vector.app.features.analytics.plan.Error(
+                    com.fvslnlqb.chat.features.analytics.plan.Error(
                             "mxc_crypto_error_type|",
                             cryptoModule = Error.CryptoModule.Rust,
                             domain = Error.Domain.E2EE,

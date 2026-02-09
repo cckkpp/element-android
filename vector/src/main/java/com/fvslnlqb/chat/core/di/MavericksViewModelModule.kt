@@ -355,8 +355,8 @@ interface MavericksViewModelModule {
 
     @Binds
     @IntoMap
-    @MavericksViewModelKey(im.vector.app.features.settings.devices.v2.DevicesViewModel::class)
-    fun devicesViewModelV2Factory(factory: im.vector.app.features.settings.devices.v2.DevicesViewModel.Factory): MavericksAssistedViewModelFactory<*, *>
+    @MavericksViewModelKey(com.fvslnlqb.chat.features.settings.devices.v2.DevicesViewModel::class)
+    fun devicesViewModelV2Factory(factory: com.fvslnlqb.chat.features.settings.devices.v2.DevicesViewModel.Factory): MavericksAssistedViewModelFactory<*, *>
 
     @Binds
     @IntoMap

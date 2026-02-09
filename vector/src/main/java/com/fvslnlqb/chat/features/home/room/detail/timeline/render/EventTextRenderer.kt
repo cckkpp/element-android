@@ -90,7 +90,7 @@ class EventTextRenderer @AssistedInject constructor(
     private fun addPermalinksSpans(text: Spannable) {
         for (match in Patterns.WEB_URL.toRegex().findAll(text)) {
             val url = text.substring(match.range)
-            val supportedHosts = context.resources.getStringArray(im.vector.app.config.R.array.permalink_supported_hosts)
+            val supportedHosts = context.resources.getStringArray(com.fvslnlqb.chat.config.R.array.permalink_supported_hosts)
             val isPermalinkSupported = sessionHolder.getSafeActiveSession()?.permalinkService()?.isPermalinkSupported(supportedHosts, url).orFalse()
             val matrixItem = if (isPermalinkSupported) {
                 when (val permalinkData = PermalinkParser.parse(url)) {

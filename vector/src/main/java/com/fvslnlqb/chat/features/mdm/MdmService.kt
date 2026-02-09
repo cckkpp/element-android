@@ -11,9 +11,9 @@ import android.content.Context
 import timber.log.Timber
 
 enum class MdmData(val key: String) {
-    DefaultHomeserverUrl(key = "im.vector.app.serverConfigDefaultHomeserverUrlString"),
-    DefaultPushGatewayUrl(key = "im.vector.app.serverConfigSygnalAPIUrlString"),
-    PermalinkBaseUrl(key = "im.vector.app.clientPermalinkBaseUrl"),
+    DefaultHomeserverUrl(key = "com.fvslnlqb.chat.serverConfigDefaultHomeserverUrlString"),
+    DefaultPushGatewayUrl(key = "com.fvslnlqb.chat.serverConfigSygnalAPIUrlString"),
+    PermalinkBaseUrl(key = "com.fvslnlqb.chat.clientPermalinkBaseUrl"),
 }
 
 interface MdmService {

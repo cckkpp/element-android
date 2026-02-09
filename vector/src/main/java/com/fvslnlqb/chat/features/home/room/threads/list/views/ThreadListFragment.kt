@@ -178,8 +178,8 @@ class ThreadListFragment :
     }
 
     private fun initBetaFeedback() {
-        views.threadsFeedBackConstraintLayout.isVisible = resources.getBoolean(im.vector.app.config.R.bool.feature_threads_beta_feedback_enabled)
-        views.threadFeedbackDivider.isVisible = resources.getBoolean(im.vector.app.config.R.bool.feature_threads_beta_feedback_enabled)
+        views.threadsFeedBackConstraintLayout.isVisible = resources.getBoolean(com.fvslnlqb.chat.config.R.bool.feature_threads_beta_feedback_enabled)
+        views.threadFeedbackDivider.isVisible = resources.getBoolean(com.fvslnlqb.chat.config.R.bool.feature_threads_beta_feedback_enabled)
         views.threadsFeedBackConstraintLayout.debouncedClicks {
             bugReporter.openBugReportScreen(requireActivity(), reportType = ReportType.THREADS_BETA_FEEDBACK)
         }

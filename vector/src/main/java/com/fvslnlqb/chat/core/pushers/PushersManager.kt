@@ -36,7 +36,7 @@ class PushersManager @Inject constructor(
 
         currentSession.pushersService().testPush(
                 unifiedPushHelper.getPushGateway() ?: return,
-                stringProvider.getString(im.vector.app.config.R.string.pusher_app_id),
+                stringProvider.getString(com.fvslnlqb.chat.config.R.string.pusher_app_id),
                 unifiedPushHelper.getEndpointOrToken().orEmpty(),
                 TEST_EVENT_ID
         )
@@ -45,7 +45,7 @@ class PushersManager @Inject constructor(
     suspend fun enqueueRegisterPusherWithFcmKey(pushKey: String): UUID {
         return enqueueRegisterPusher(
                 pushKey = pushKey,
-                gateway = mdmService.getData(MdmData.DefaultPushGatewayUrl, stringProvider.getString(im.vector.app.config.R.string.pusher_http_url))
+                gateway = mdmService.getData(MdmData.DefaultPushGatewayUrl, stringProvider.getString(com.fvslnlqb.chat.config.R.string.pusher_http_url))
         )
     }
 
@@ -63,7 +63,7 @@ class PushersManager @Inject constructor(
             gateway: String
     ) = HttpPusher(
             pushkey = pushKey,
-            appId = stringProvider.getString(im.vector.app.config.R.string.pusher_app_id),
+            appId = stringProvider.getString(com.fvslnlqb.chat.config.R.string.pusher_app_id),
             profileTag = DEFAULT_PUSHER_FILE_TAG + "_" + abs(activeSessionHolder.getActiveSession().myUserId.hashCode()),
             lang = localeProvider.current().language,
             appDisplayName = appNameProvider.getAppName(),
@@ -100,7 +100,7 @@ class PushersManager @Inject constructor(
 
     suspend fun unregisterPusher(pushKey: String) {
         val currentSession = activeSessionHolder.getSafeActiveSession() ?: return
-        currentSession.pushersService().removeHttpPusher(pushKey, stringProvider.getString(im.vector.app.config.R.string.pusher_app_id))
+        currentSession.pushersService().removeHttpPusher(pushKey, stringProvider.getString(com.fvslnlqb.chat.config.R.string.pusher_app_id))
     }
 
     companion object {

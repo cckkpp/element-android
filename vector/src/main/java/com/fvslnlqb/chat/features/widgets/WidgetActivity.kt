@@ -170,7 +170,7 @@ class WidgetActivity : VectorBaseActivity<ActivityWidgetBinding>() {
         val actions = mutableListOf<RemoteAction>()
         val intent = Intent(ACTION_MEDIA_CONTROL).putExtra(EXTRA_CONTROL_TYPE, CONTROL_TYPE_HANGUP)
         val pendingIntent = PendingIntent.getBroadcast(this, REQUEST_CODE_HANGUP, intent, FLAG_IMMUTABLE)
-        val icon = Icon.createWithResource(this, im.vector.app.R.drawable.ic_call_hangup)
+        val icon = Icon.createWithResource(this, com.fvslnlqb.chat.R.drawable.ic_call_hangup)
         actions.add(RemoteAction(icon, getString(CommonStrings.call_notification_hangup), getString(CommonStrings.call_notification_hangup), pendingIntent))
 
         val aspectRatio = Rational(resources.getDimensionPixelSize(R.dimen.call_pip_width), resources.getDimensionPixelSize(R.dimen.call_pip_height))

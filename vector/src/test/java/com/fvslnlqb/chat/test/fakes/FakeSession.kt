@@ -41,7 +41,7 @@ class FakeSession(
 ) : Session by mockk(relaxed = true) {
 
     init {
-        mockkStatic("im.vector.app.core.extensions.SessionKt")
+        mockkStatic("com.fvslnlqb.chat.core.extensions.SessionKt")
     }
 
     var fakeUserId = "@fake:server.fake"

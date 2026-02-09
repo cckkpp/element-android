@@ -921,7 +921,7 @@ class VectorPreferences @Inject constructor(
      * @return true to show timeline message in bubble.
      */
     fun useMessageBubblesLayout(): Boolean {
-        return defaultPrefs.getBoolean(SETTINGS_INTERFACE_BUBBLE_KEY, getDefault(im.vector.app.config.R.bool.settings_interface_bubble_default))
+        return defaultPrefs.getBoolean(SETTINGS_INTERFACE_BUBBLE_KEY, getDefault(com.fvslnlqb.chat.config.R.bool.settings_interface_bubble_default))
     }
 
     /**
@@ -932,7 +932,7 @@ class VectorPreferences @Inject constructor(
     fun userAlwaysAppearsOffline(): Boolean {
         return defaultPrefs.getBoolean(
                 SETTINGS_PRESENCE_USER_ALWAYS_APPEARS_OFFLINE,
-                getDefault(im.vector.app.config.R.bool.settings_presence_user_always_appears_offline_default)
+                getDefault(com.fvslnlqb.chat.config.R.bool.settings_presence_user_always_appears_offline_default)
         )
     }
 
@@ -1114,7 +1114,7 @@ class VectorPreferences @Inject constructor(
      * Indicates whether or not thread messages are enabled.
      */
     fun areThreadMessagesEnabled(): Boolean {
-        return defaultPrefs.getBoolean(SETTINGS_LABS_ENABLE_THREAD_MESSAGES, getDefault(im.vector.app.config.R.bool.settings_labs_thread_messages_default))
+        return defaultPrefs.getBoolean(SETTINGS_LABS_ENABLE_THREAD_MESSAGES, getDefault(com.fvslnlqb.chat.config.R.bool.settings_labs_thread_messages_default))
     }
 
     /**
@@ -1205,21 +1205,21 @@ class VectorPreferences @Inject constructor(
      */
     fun isNewAppLayoutEnabled(): Boolean {
         return vectorFeatures.isNewAppLayoutFeatureEnabled() &&
-                defaultPrefs.getBoolean(SETTINGS_LABS_NEW_APP_LAYOUT_KEY, getDefault(im.vector.app.config.R.bool.settings_labs_new_app_layout_default))
+                defaultPrefs.getBoolean(SETTINGS_LABS_NEW_APP_LAYOUT_KEY, getDefault(com.fvslnlqb.chat.config.R.bool.settings_labs_new_app_layout_default))
     }
 
     /**
      * Indicates whether or not deferred DMs are enabled.
      */
     fun isDeferredDmEnabled(): Boolean {
-        return defaultPrefs.getBoolean(SETTINGS_LABS_DEFERRED_DM_KEY, getDefault(im.vector.app.config.R.bool.settings_labs_deferred_dm_default))
+        return defaultPrefs.getBoolean(SETTINGS_LABS_DEFERRED_DM_KEY, getDefault(com.fvslnlqb.chat.config.R.bool.settings_labs_deferred_dm_default))
     }
 
     /**
      * Indicates whether or not new session manager screens are enabled.
      */
     fun isNewSessionManagerEnabled(): Boolean {
-        return defaultPrefs.getBoolean(SETTINGS_LABS_NEW_SESSION_MANAGER_KEY, getDefault(im.vector.app.config.R.bool.settings_labs_new_session_manager_default))
+        return defaultPrefs.getBoolean(SETTINGS_LABS_NEW_SESSION_MANAGER_KEY, getDefault(com.fvslnlqb.chat.config.R.bool.settings_labs_new_session_manager_default))
     }
 
     /**
@@ -1229,7 +1229,7 @@ class VectorPreferences @Inject constructor(
         return defaultPrefs.getBoolean(
                 SETTINGS_LABS_CLIENT_INFO_RECORDING_KEY,
                 getDefault(
-                        im.vector.app.config.R.bool.settings_labs_client_info_recording_default
+                        com.fvslnlqb.chat.config.R.bool.settings_labs_client_info_recording_default
                 )
         )
     }
@@ -1237,14 +1237,14 @@ class VectorPreferences @Inject constructor(
     fun showLiveSenderInfo(): Boolean {
         return defaultPrefs.getBoolean(
                 SETTINGS_TIMELINE_SHOW_LIVE_SENDER_INFO,
-                getDefault(im.vector.app.config.R.bool.settings_timeline_show_live_sender_info_default)
+                getDefault(com.fvslnlqb.chat.config.R.bool.settings_timeline_show_live_sender_info_default)
         )
     }
 
     fun isRichTextEditorEnabled(): Boolean {
         return defaultPrefs.getBoolean(
                 SETTINGS_LABS_RICH_TEXT_EDITOR_KEY,
-                getDefault(im.vector.app.config.R.bool.settings_labs_rich_text_editor_default)
+                getDefault(com.fvslnlqb.chat.config.R.bool.settings_labs_rich_text_editor_default)
         )
     }
 
@@ -1252,14 +1252,14 @@ class VectorPreferences @Inject constructor(
         return vectorFeatures.isVoiceBroadcastEnabled() &&
                 defaultPrefs.getBoolean(
                         SETTINGS_LABS_VOICE_BROADCAST_KEY,
-                        getDefault(im.vector.app.config.R.bool.settings_labs_enable_voice_broadcast_default)
+                        getDefault(com.fvslnlqb.chat.config.R.bool.settings_labs_enable_voice_broadcast_default)
                 )
     }
 
     fun showIpAddressInSessionManagerScreens(): Boolean {
         return defaultPrefs.getBoolean(
                 SETTINGS_SESSION_MANAGER_SHOW_IP_ADDRESS,
-                getDefault(im.vector.app.config.R.bool.settings_session_manager_show_ip_address)
+                getDefault(com.fvslnlqb.chat.config.R.bool.settings_session_manager_show_ip_address)
         )
     }
 

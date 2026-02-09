@@ -75,7 +75,7 @@ class VectorSettingsActivity : VectorBaseActivity<ActivityVectorSettingsBinding>
                     replaceFragment(views.vectorSettingsPage, VectorSettingsSecurityPrivacyFragment::class.java, null, FRAGMENT_TAG)
                 SettingsActivityPayload.SecurityPrivacyManageSessions -> {
                     val fragmentClass = if (vectorPreferences.isNewSessionManagerEnabled()) {
-                        im.vector.app.features.settings.devices.v2.VectorSettingsDevicesFragment::class.java
+                        com.fvslnlqb.chat.features.settings.devices.v2.VectorSettingsDevicesFragment::class.java
                     } else {
                         VectorSettingsDevicesFragment::class.java
                     }

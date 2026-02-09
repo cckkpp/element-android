@@ -29,7 +29,7 @@ class RegistrationActionHandlerTest {
     private val vectorOverrides = FakeVectorOverrides()
     private val vectorFeatures = FakeVectorFeatures()
     private val fakeStringProvider = FakeStringProvider().also {
-        it.given(im.vector.app.config.R.string.matrix_org_server_url, "https://matrix.org")
+        it.given(com.fvslnlqb.chat.config.R.string.matrix_org_server_url, "https://matrix.org")
     }
 
     private val registrationActionHandler = RegistrationActionHandler(

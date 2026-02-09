@@ -29,7 +29,7 @@ class RegistrationActionHandler @Inject constructor(
         stringProvider: StringProvider
 ) {
 
-    private val matrixOrgUrl = stringProvider.getString(im.vector.app.config.R.string.matrix_org_server_url).ensureTrailingSlash()
+    private val matrixOrgUrl = stringProvider.getString(com.fvslnlqb.chat.config.R.string.matrix_org_server_url).ensureTrailingSlash()
 
     suspend fun processAction(state: SelectedHomeserverState, action: RegisterAction): Result {
         val result = registrationWizardActionDelegate.executeAction(action)

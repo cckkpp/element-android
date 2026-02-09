@@ -48,7 +48,7 @@ class LocationTrackerTest {
 
     @Before
     fun setUp() {
-        mockkStatic("im.vector.app.features.session.SessionCoroutineScopesKt")
+        mockkStatic("com.fvslnlqb.chat.features.session.SessionCoroutineScopesKt")
         locationTracker = LocationTracker(fakeContext.instance, fakeActiveSessionHolder.instance, aBuildMeta(), FakePermissionChecker())
         fakeLocationManager.givenRemoveUpdates(locationTracker)
     }

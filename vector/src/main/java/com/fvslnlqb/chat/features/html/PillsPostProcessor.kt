@@ -97,7 +97,7 @@ class PillsPostProcessor @AssistedInject constructor(
             PillImageSpan(GlideApp.with(context), avatarRenderer, context, matrixItem)
 
     private fun LinkSpan.createPillSpan(): PillImageSpan? {
-        val supportedHosts = context.resources.getStringArray(im.vector.app.config.R.array.permalink_supported_hosts)
+        val supportedHosts = context.resources.getStringArray(com.fvslnlqb.chat.config.R.array.permalink_supported_hosts)
         val isPermalinkSupported = sessionHolder.getSafeActiveSession()?.permalinkService()?.isPermalinkSupported(supportedHosts, url).orFalse()
         if (isPermalinkSupported) {
             val matrixItem = when (val permalinkData = PermalinkParser.parse(url)) {

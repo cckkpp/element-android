@@ -66,7 +66,7 @@ class FtueAuthCombinedServerSelectionFragment :
                 updateServerUrl()
             }
         }
-        views.chooseServerGetInTouch.debouncedClicks { openUrlInExternalBrowser(requireContext(), getString(im.vector.app.config.R.string.ftue_ems_url)) }
+        views.chooseServerGetInTouch.debouncedClicks { openUrlInExternalBrowser(requireContext(), getString(com.fvslnlqb.chat.config.R.string.ftue_ems_url)) }
         views.chooseServerSubmit.debouncedClicks { updateServerUrl() }
         (Config.sunsetConfig as? SunsetConfig.Enabled)?.let { config ->
             views.chooseServerCardDownloadReplacementApp.debouncedClicks {

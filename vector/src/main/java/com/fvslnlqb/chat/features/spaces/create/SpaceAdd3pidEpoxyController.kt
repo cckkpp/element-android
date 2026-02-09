@@ -48,7 +48,7 @@ class SpaceAdd3pidEpoxyController @Inject constructor(
         } else {
             genericPillItem {
                 id("no_IDS")
-                imageRes(im.vector.app.R.drawable.ic_baseline_perm_contact_calendar_24)
+                imageRes(com.fvslnlqb.chat.R.drawable.ic_baseline_perm_contact_calendar_24)
                 text(host.stringProvider.getString(CommonStrings.create_space_identity_server_info_none).toEpoxyCharSequence())
             }
             genericButtonItem {

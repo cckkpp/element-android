@@ -55,7 +55,7 @@ class PushersManagerTest {
         val pusherAppId = "app-id"
         val appName = "element"
         val deviceDisplayName = "iPhone Lollipop"
-        stringProvider.given(im.vector.app.config.R.string.pusher_app_id, pusherAppId)
+        stringProvider.given(com.fvslnlqb.chat.config.R.string.pusher_app_id, pusherAppId)
         localeProvider.givenCurrent(Locale.UK)
         appNameProvider.givenAppName(appName)
         getDeviceInfoUseCase.givenDeviceInfo(aCryptoDeviceInfo(unsigned = UnsignedDeviceInfo(deviceDisplayName)))

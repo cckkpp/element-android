@@ -96,14 +96,14 @@ class UnifiedPushHelper @Inject constructor(
             unifiedPushStore.storePushGateway(
                     gateway = mdmService.getData(
                             mdmData = MdmData.DefaultPushGatewayUrl,
-                            defaultValue = stringProvider.getString(im.vector.app.config.R.string.pusher_http_url),
+                            defaultValue = stringProvider.getString(com.fvslnlqb.chat.config.R.string.pusher_http_url),
                     )
             )
             onDoneRunnable?.run()
             return
         }
         // else, unifiedpush, and pushkey is an endpoint
-        val gateway = stringProvider.getString(im.vector.app.config.R.string.default_push_gateway_http_url)
+        val gateway = stringProvider.getString(com.fvslnlqb.chat.config.R.string.default_push_gateway_http_url)
         val parsed = URL(endpoint)
         val port = if (parsed.port != -1) {
             ":${parsed.port}"
@@ -187,7 +187,7 @@ class UnifiedPushHelper @Inject constructor(
         return if (isEmbeddedDistributor()) {
             mdmService.getData(
                     mdmData = MdmData.DefaultPushGatewayUrl,
-                    defaultValue = stringProvider.getString(im.vector.app.config.R.string.pusher_http_url),
+                    defaultValue = stringProvider.getString(com.fvslnlqb.chat.config.R.string.pusher_http_url),
             )
         } else {
             unifiedPushStore.getPushGateway()

@@ -77,7 +77,7 @@ class FirebaseNightlyProxy @Inject constructor(
         private const val SHARED_PREF_KEY = "LAST_NIGHTLY_POPUP_DAY"
 
         private val nightlyPackages = listOf(
-                "im.vector.app.nightly"
+                "com.fvslnlqb.chat.nightly"
         )
     }
 }

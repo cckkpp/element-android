@@ -47,7 +47,7 @@ class JitsiService @Inject constructor(
     }
 
     private val jitsiWidgetDataFactory by lazy {
-        JitsiWidgetDataFactory(stringProvider.getString(im.vector.app.config.R.string.preferred_jitsi_domain)) { widget ->
+        JitsiWidgetDataFactory(stringProvider.getString(com.fvslnlqb.chat.config.R.string.preferred_jitsi_domain)) { widget ->
             session.widgetService().getWidgetComputedUrl(widget, themeProvider.isLightTheme())
         }
     }
@@ -60,7 +60,7 @@ class JitsiService @Inject constructor(
                     ?.jitsiServer
                     ?.preferredDomain
         }
-        val jitsiDomain = preferredJitsiDomain ?: stringProvider.getString(im.vector.app.config.R.string.preferred_jitsi_domain)
+        val jitsiDomain = preferredJitsiDomain ?: stringProvider.getString(com.fvslnlqb.chat.config.R.string.preferred_jitsi_domain)
         val jitsiAuth = getJitsiAuth(jitsiDomain)
         val confId = createConferenceId(roomId, jitsiAuth)
 

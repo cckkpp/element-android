@@ -54,14 +54,14 @@ class DownloadMediaUseCaseTest {
     @Before
     fun setUp() {
         MockKAnnotations.init(this)
-        mockkStatic("im.vector.app.core.utils.ExternalApplicationsUtilKt")
-        mockkStatic("im.vector.app.core.intent.VectorMimeTypeKt")
+        mockkStatic("com.fvslnlqb.chat.core.utils.ExternalApplicationsUtilKt")
+        mockkStatic("com.fvslnlqb.chat.core.intent.VectorMimeTypeKt")
     }
 
     @After
     fun tearDown() {
-        unmockkStatic("im.vector.app.core.utils.ExternalApplicationsUtilKt")
-        unmockkStatic("im.vector.app.core.intent.VectorMimeTypeKt")
+        unmockkStatic("com.fvslnlqb.chat.core.utils.ExternalApplicationsUtilKt")
+        unmockkStatic("com.fvslnlqb.chat.core.intent.VectorMimeTypeKt")
         file.tearDown()
     }
 

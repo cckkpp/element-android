@@ -43,7 +43,7 @@ class ThreadsManager @Inject constructor(
      */
     private fun generateLearnMoreHtmlString(@StringRes messageId: Int): Spanned {
         val learnMore = stringProvider.getString(CommonStrings.action_learn_more)
-        val learnMoreUrl = stringProvider.getString(im.vector.app.config.R.string.threads_learn_more_url)
+        val learnMoreUrl = stringProvider.getString(com.fvslnlqb.chat.config.R.string.threads_learn_more_url)
         val href = "<a href='$learnMoreUrl'>$learnMore</a>.<br><br>"
         val message = stringProvider.getString(messageId, href)
         return HtmlCompat.fromHtml(message, HtmlCompat.FROM_HTML_MODE_LEGACY)

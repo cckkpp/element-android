@@ -32,7 +32,7 @@ class ShieldImageView @JvmOverloads constructor(
 
     /**
      * Renders device shield with the support of unknown shields instead of black shields which is used for rooms.
-     * @param roomEncryptionTrustLevel trust level that is usually calculated with [im.vector.app.features.settings.devices.TrustUtils.shieldForTrust]
+     * @param roomEncryptionTrustLevel trust level that is usually calculated with [com.fvslnlqb.chat.features.settings.devices.TrustUtils.shieldForTrust]
      * @param borderLess if true then the shield icon with border around is used
      */
     fun renderDeviceShield(roomEncryptionTrustLevel: RoomEncryptionTrustLevel?, borderLess: Boolean = false) {
