@@ -14,7 +14,7 @@ import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.fvslnlqb.chat.core.epoxy.VectorEpoxyHolder
 import com.fvslnlqb.chat.core.epoxy.VectorEpoxyModel
-import com.fvslnlqb.chatlication.R
+import com.fvslnlqb.chat.R
 import me.gujun.android.span.image
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.crypto.verification.EmojiRepresentation

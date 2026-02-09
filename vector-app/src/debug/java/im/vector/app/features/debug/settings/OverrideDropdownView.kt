@@ -15,7 +15,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.LinearLayout
-import com.fvslnlqb.chatlication.databinding.ViewBooleanDropdownBinding
+import com.fvslnlqb.chat.databinding.ViewBooleanDropdownBinding
 
 class OverrideDropdownView @JvmOverloads constructor(
         context: Context,

@@ -58,7 +58,7 @@ import com.fvslnlqb.chat.features.settings.VectorLocale
 import com.fvslnlqb.chat.features.settings.VectorPreferences
 import com.fvslnlqb.chat.features.themes.ThemeUtils
 import com.fvslnlqb.chat.features.version.VersionProvider
-import com.fvslnlqb.chatlication.R
+import com.fvslnlqb.chat.R
 import org.jitsi.meet.sdk.log.JitsiMeetDefaultLogHandler
 import org.maplibre.android.MapLibre
 import org.matrix.android.sdk.api.Matrix

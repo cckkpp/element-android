@@ -53,8 +53,8 @@ import com.fvslnlqb.chat.features.settings.FontScalePreferencesImpl
 import com.fvslnlqb.chat.features.settings.VectorPreferences
 import com.fvslnlqb.chat.features.ui.SharedPreferencesUiStateRepository
 import com.fvslnlqb.chat.features.ui.UiStateRepository
-import com.fvslnlqb.chatlication.BuildConfig
-import com.fvslnlqb.chatlication.R
+import com.fvslnlqb.chat.BuildConfig
+import com.fvslnlqb.chat.R
 import im.vector.lib.core.utils.timer.Clock
 import im.vector.lib.core.utils.timer.DefaultClock
 import kotlinx.coroutines.CoroutineScope

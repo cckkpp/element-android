@@ -21,8 +21,8 @@ import com.fvslnlqb.chat.core.utils.checkPermissions
 import com.fvslnlqb.chat.core.utils.onPermissionDeniedDialog
 import com.fvslnlqb.chat.core.utils.onPermissionDeniedSnackbar
 import com.fvslnlqb.chat.core.utils.registerForPermissionsResult
-import com.fvslnlqb.chatlication.R
-import com.fvslnlqb.chatlication.databinding.ActivityDebugPermissionBinding
+import com.fvslnlqb.chat.R
+import com.fvslnlqb.chat.databinding.ActivityDebugPermissionBinding
 import im.vector.lib.strings.CommonStrings
 import timber.log.Timber
 

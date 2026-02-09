@@ -17,7 +17,7 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.fvslnlqb.chat.core.platform.VectorBaseFragment
 import com.fvslnlqb.chat.features.home.room.list.home.release.ReleaseNotesActivity
-import com.fvslnlqb.chatlication.databinding.FragmentDebugPrivateSettingsBinding
+import com.fvslnlqb.chat.databinding.FragmentDebugPrivateSettingsBinding
 
 class DebugPrivateSettingsFragment : VectorBaseFragment<FragmentDebugPrivateSettingsBinding>() {
 

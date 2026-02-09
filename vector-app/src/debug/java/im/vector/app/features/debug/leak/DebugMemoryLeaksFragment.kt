@@ -16,7 +16,7 @@ import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
 import com.fvslnlqb.chat.core.epoxy.onClick
 import com.fvslnlqb.chat.core.platform.VectorBaseFragment
-import com.fvslnlqb.chatlication.databinding.FragmentDebugMemoryLeaksBinding
+import com.fvslnlqb.chat.databinding.FragmentDebugMemoryLeaksBinding
 
 @AndroidEntryPoint
 class DebugMemoryLeaksFragment :

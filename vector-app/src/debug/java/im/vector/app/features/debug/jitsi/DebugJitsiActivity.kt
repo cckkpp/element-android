@@ -11,7 +11,7 @@ import android.annotation.SuppressLint
 import android.view.View
 import dagger.hilt.android.AndroidEntryPoint
 import com.fvslnlqb.chat.core.platform.VectorBaseActivity
-import com.fvslnlqb.chatlication.databinding.ActivityDebugJitsiBinding
+import com.fvslnlqb.chat.databinding.ActivityDebugJitsiBinding
 import org.jitsi.meet.sdk.JitsiMeet
 
 @AndroidEntryPoint

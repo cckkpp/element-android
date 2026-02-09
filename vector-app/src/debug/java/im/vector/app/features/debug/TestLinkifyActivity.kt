@@ -11,9 +11,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import com.fvslnlqb.chatlication.R
-import com.fvslnlqb.chatlication.databinding.ActivityTestLinkifyBinding
-import com.fvslnlqb.chatlication.databinding.ItemTestLinkifyBinding
+import com.fvslnlqb.chat.R
+import com.fvslnlqb.chat.databinding.ActivityTestLinkifyBinding
+import com.fvslnlqb.chat.databinding.ItemTestLinkifyBinding
 
 class TestLinkifyActivity : AppCompatActivity() {
 

@@ -31,7 +31,7 @@ import com.fvslnlqb.chat.features.debug.leak.DebugMemoryLeaksActivity
 import com.fvslnlqb.chat.features.debug.sas.DebugSasEmojiActivity
 import com.fvslnlqb.chat.features.debug.settings.DebugPrivateSettingsActivity
 import com.fvslnlqb.chat.features.qrcode.QrCodeScannerActivity
-import com.fvslnlqb.chatlication.databinding.ActivityDebugMenuBinding
+import com.fvslnlqb.chat.databinding.ActivityDebugMenuBinding
 import im.vector.lib.core.utils.timer.Clock
 import im.vector.lib.ui.styles.debug.DebugMaterialThemeDarkDefaultActivity
 import im.vector.lib.ui.styles.debug.DebugMaterialThemeDarkTestActivity
