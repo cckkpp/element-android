@@ -5,16 +5,16 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.core.di
+package com.fvslnlqb.chat.core.di
 
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.features.DefaultVectorFeatures
-import im.vector.app.features.DefaultVectorOverrides
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.VectorOverrides
+import com.fvslnlqb.chat.features.DefaultVectorFeatures
+import com.fvslnlqb.chat.features.DefaultVectorOverrides
+import com.fvslnlqb.chat.features.VectorFeatures
+import com.fvslnlqb.chat.features.VectorOverrides
 
 @InstallIn(SingletonComponent::class)
 @Module

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace "im.vector.app.config"
+    namespace "com.fvslnlqb.chat.config"
 
     compileSdk versions.compileSdk
 

@@ -4,13 +4,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
  * Please see LICENSE files in the repository root for full details.
  */
-package im.vector.app.gplay.features.settings.troubleshoot
+package com.fvslnlqb.chat.gplay.features.settings.troubleshoot
 
 import androidx.fragment.app.FragmentActivity
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.GoogleApiAvailability
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.settings.troubleshoot.TroubleshootTest
+import com.fvslnlqb.chat.core.resources.StringProvider
+import com.fvslnlqb.chat.features.settings.troubleshoot.TroubleshootTest
 import im.vector.lib.strings.CommonStrings
 import timber.log.Timber
 import javax.inject.Inject

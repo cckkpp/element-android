@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
  * Please see LICENSE files in the repository root for full details.
  */
-package im.vector.app.push.fcm
+package com.fvslnlqb.chat.push.fcm
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -14,11 +14,11 @@ import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.GoogleApiAvailability
 import com.google.firebase.messaging.FirebaseMessaging
 import dagger.hilt.android.qualifiers.ApplicationContext
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.dispatchers.CoroutineDispatchers
-import im.vector.app.core.pushers.FcmHelper
-import im.vector.app.core.pushers.PushersManager
+import com.fvslnlqb.chat.core.di.ActiveSessionHolder
+import com.fvslnlqb.chat.core.di.DefaultPreferences
+import com.fvslnlqb.chat.core.dispatchers.CoroutineDispatchers
+import com.fvslnlqb.chat.core.pushers.FcmHelper
+import com.fvslnlqb.chat.core.pushers.PushersManager
 import im.vector.lib.strings.CommonStrings
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch

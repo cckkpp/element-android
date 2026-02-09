@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.features
+package com.fvslnlqb.chat.features.debug.features
 
 import android.view.View
 import android.widget.AdapterView
@@ -14,9 +14,9 @@ import android.widget.Spinner
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.application.R
+import com.fvslnlqb.chat.core.epoxy.VectorEpoxyHolder
+import com.fvslnlqb.chat.core.epoxy.VectorEpoxyModel
+import com.fvslnlqb.chatlication.R
 
 @EpoxyModelClass
 abstract class BooleanFeatureItem : VectorEpoxyModel<BooleanFeatureItem.Holder>(R.layout.item_feature) {

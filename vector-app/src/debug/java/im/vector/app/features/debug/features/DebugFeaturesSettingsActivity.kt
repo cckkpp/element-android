@@ -5,15 +5,15 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.features
+package com.fvslnlqb.chat.features.debug.features
 
 import android.os.Bundle
 import android.view.View
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
+import com.fvslnlqb.chat.core.extensions.cleanup
+import com.fvslnlqb.chat.core.extensions.configureWith
+import com.fvslnlqb.chat.core.platform.VectorBaseActivity
+import com.fvslnlqb.chat.databinding.FragmentGenericRecyclerBinding
 import javax.inject.Inject
 
 @AndroidEntryPoint

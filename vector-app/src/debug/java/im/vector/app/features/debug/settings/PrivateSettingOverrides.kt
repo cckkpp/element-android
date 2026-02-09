@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.settings
+package com.fvslnlqb.chat.features.debug.settings
 
 sealed interface BooleanHomeserverCapabilitiesOverride : OverrideOption {
 

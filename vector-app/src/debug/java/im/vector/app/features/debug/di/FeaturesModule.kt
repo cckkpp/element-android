@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.di
+package com.fvslnlqb.chat.features.debug.di
 
 import android.content.Context
 import dagger.Binds
@@ -13,12 +13,12 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.features.DefaultVectorFeatures
-import im.vector.app.features.DefaultVectorOverrides
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.VectorOverrides
-import im.vector.app.features.debug.features.DebugVectorFeatures
-import im.vector.app.features.debug.features.DebugVectorOverrides
+import com.fvslnlqb.chat.features.DefaultVectorFeatures
+import com.fvslnlqb.chat.features.DefaultVectorOverrides
+import com.fvslnlqb.chat.features.VectorFeatures
+import com.fvslnlqb.chat.features.VectorOverrides
+import com.fvslnlqb.chat.features.debug.features.DebugVectorFeatures
+import com.fvslnlqb.chat.features.debug.features.DebugVectorOverrides
 
 @InstallIn(SingletonComponent::class)
 @Module

@@ -5,9 +5,9 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.settings
+package com.fvslnlqb.chat.features.debug.settings
 
-import im.vector.app.core.platform.VectorViewModelAction
+import com.fvslnlqb.chat.core.platform.VectorViewModelAction
 
 sealed interface DebugPrivateSettingsViewActions : VectorViewModelAction {
     data class SetDialPadVisibility(val force: Boolean) : DebugPrivateSettingsViewActions
