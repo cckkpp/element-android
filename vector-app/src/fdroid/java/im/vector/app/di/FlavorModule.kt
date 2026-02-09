@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.di
+package com.fvslnlqb.chat.di
 
 import android.content.Context
 import dagger.Binds
@@ -13,17 +13,17 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.core.pushers.FcmHelper
-import im.vector.app.core.resources.AppNameProvider
-import im.vector.app.core.resources.DefaultAppNameProvider
-import im.vector.app.core.resources.DefaultLocaleProvider
-import im.vector.app.core.resources.LocaleProvider
-import im.vector.app.core.services.GuardServiceStarter
-import im.vector.app.fdroid.service.FDroidGuardServiceStarter
-import im.vector.app.features.home.NightlyProxy
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.legals.FlavorLegals
-import im.vector.app.push.fcm.FdroidFcmHelper
+import com.fvslnlqb.chat.core.pushers.FcmHelper
+import com.fvslnlqb.chat.core.resources.AppNameProvider
+import com.fvslnlqb.chat.core.resources.DefaultAppNameProvider
+import com.fvslnlqb.chat.core.resources.DefaultLocaleProvider
+import com.fvslnlqb.chat.core.resources.LocaleProvider
+import com.fvslnlqb.chat.core.services.GuardServiceStarter
+import com.fvslnlqb.chat.fdroid.service.FDroidGuardServiceStarter
+import com.fvslnlqb.chat.features.home.NightlyProxy
+import com.fvslnlqb.chat.features.settings.VectorPreferences
+import com.fvslnlqb.chat.features.settings.legals.FlavorLegals
+import com.fvslnlqb.chat.push.fcm.FdroidFcmHelper
 
 @InstallIn(SingletonComponent::class)
 @Module

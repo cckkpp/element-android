@@ -5,9 +5,9 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.analytics
+package com.fvslnlqb.chat.features.debug.analytics
 
-import im.vector.app.core.platform.VectorViewModelAction
+import com.fvslnlqb.chat.core.platform.VectorViewModelAction
 
 sealed interface DebugAnalyticsViewActions : VectorViewModelAction {
     object ResetAnalyticsOptInDisplayed : DebugAnalyticsViewActions

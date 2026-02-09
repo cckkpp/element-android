@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug
+package com.fvslnlqb.chat.features.debug
 
 import android.app.Activity
 import android.app.NotificationChannel
@@ -17,21 +17,21 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.Person
 import androidx.core.content.getSystemService
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.core.utils.toast
-import im.vector.app.features.debug.analytics.DebugAnalyticsActivity
-import im.vector.app.features.debug.features.DebugFeaturesSettingsActivity
-import im.vector.app.features.debug.jitsi.DebugJitsiActivity
-import im.vector.app.features.debug.leak.DebugMemoryLeaksActivity
-import im.vector.app.features.debug.sas.DebugSasEmojiActivity
-import im.vector.app.features.debug.settings.DebugPrivateSettingsActivity
-import im.vector.app.features.qrcode.QrCodeScannerActivity
-import im.vector.application.databinding.ActivityDebugMenuBinding
+import com.fvslnlqb.chat.R
+import com.fvslnlqb.chat.core.extensions.registerStartForActivityResult
+import com.fvslnlqb.chat.core.platform.VectorBaseActivity
+import com.fvslnlqb.chat.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import com.fvslnlqb.chat.core.utils.checkPermissions
+import com.fvslnlqb.chat.core.utils.registerForPermissionsResult
+import com.fvslnlqb.chat.core.utils.toast
+import com.fvslnlqb.chat.features.debug.analytics.DebugAnalyticsActivity
+import com.fvslnlqb.chat.features.debug.features.DebugFeaturesSettingsActivity
+import com.fvslnlqb.chat.features.debug.jitsi.DebugJitsiActivity
+import com.fvslnlqb.chat.features.debug.leak.DebugMemoryLeaksActivity
+import com.fvslnlqb.chat.features.debug.sas.DebugSasEmojiActivity
+import com.fvslnlqb.chat.features.debug.settings.DebugPrivateSettingsActivity
+import com.fvslnlqb.chat.features.qrcode.QrCodeScannerActivity
+import com.fvslnlqb.chat.databinding.ActivityDebugMenuBinding
 import im.vector.lib.core.utils.timer.Clock
 import im.vector.lib.ui.styles.debug.DebugMaterialThemeDarkDefaultActivity
 import im.vector.lib.ui.styles.debug.DebugMaterialThemeDarkTestActivity

@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
  * Please see LICENSE files in the repository root for full details.
  */
-package im.vector.app.fdroid.service
+package com.fvslnlqb.chat.fdroid.service
 
 import android.content.Intent
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.services.VectorAndroidService
-import im.vector.app.features.notifications.NotificationUtils
+import com.fvslnlqb.chat.core.services.VectorAndroidService
+import com.fvslnlqb.chat.features.notifications.NotificationUtils
 import im.vector.lib.strings.CommonStrings
 import javax.inject.Inject
 

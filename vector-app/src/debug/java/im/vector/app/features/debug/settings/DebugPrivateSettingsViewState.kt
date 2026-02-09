@@ -5,10 +5,10 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.settings
+package com.fvslnlqb.chat.features.debug.settings
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.debug.settings.OverrideDropdownView.OverrideDropdown
+import com.fvslnlqb.chat.features.debug.settings.OverrideDropdownView.OverrideDropdown
 
 data class DebugPrivateSettingsViewState(
         val dialPadVisible: Boolean = false,

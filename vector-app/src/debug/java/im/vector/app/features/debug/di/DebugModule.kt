@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.di
+package com.fvslnlqb.chat.features.debug.di
 
 import android.content.Context
 import android.content.Intent
@@ -14,12 +14,12 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.core.debug.DebugNavigator
-import im.vector.app.core.debug.DebugReceiver
-import im.vector.app.core.debug.LeakDetector
-import im.vector.app.features.debug.DebugMenuActivity
-import im.vector.app.leakcanary.LeakCanaryLeakDetector
-import im.vector.app.receivers.VectorDebugReceiver
+import com.fvslnlqb.chat.core.debug.DebugNavigator
+import com.fvslnlqb.chat.core.debug.DebugReceiver
+import com.fvslnlqb.chat.core.debug.LeakDetector
+import com.fvslnlqb.chat.features.debug.DebugMenuActivity
+import com.fvslnlqb.chat.leakcanary.LeakCanaryLeakDetector
+import com.fvslnlqb.chat.receivers.VectorDebugReceiver
 
 @InstallIn(SingletonComponent::class)
 @Module

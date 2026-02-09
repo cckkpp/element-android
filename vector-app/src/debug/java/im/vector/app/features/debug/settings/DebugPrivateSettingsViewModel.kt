@@ -5,20 +5,20 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.settings
+package com.fvslnlqb.chat.features.debug.settings
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.debug.features.DebugVectorOverrides
-import im.vector.app.features.debug.settings.DebugPrivateSettingsViewActions.SetAvatarCapabilityOverride
-import im.vector.app.features.debug.settings.DebugPrivateSettingsViewActions.SetDisplayNameCapabilityOverride
-import im.vector.app.features.home.room.list.home.release.ReleaseNotesPreferencesStore
+import com.fvslnlqb.chat.core.di.MavericksAssistedViewModelFactory
+import com.fvslnlqb.chat.core.di.hiltMavericksViewModelFactory
+import com.fvslnlqb.chat.core.platform.EmptyViewEvents
+import com.fvslnlqb.chat.core.platform.VectorViewModel
+import com.fvslnlqb.chat.features.debug.features.DebugVectorOverrides
+import com.fvslnlqb.chat.features.debug.settings.DebugPrivateSettingsViewActions.SetAvatarCapabilityOverride
+import com.fvslnlqb.chat.features.debug.settings.DebugPrivateSettingsViewActions.SetDisplayNameCapabilityOverride
+import com.fvslnlqb.chat.features.home.room.list.home.release.ReleaseNotesPreferencesStore
 import kotlinx.coroutines.launch
 
 class DebugPrivateSettingsViewModel @AssistedInject constructor(

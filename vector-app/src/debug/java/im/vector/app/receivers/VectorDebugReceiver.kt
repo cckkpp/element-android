@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.receivers
+package com.fvslnlqb.chat.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -14,9 +14,9 @@ import android.content.IntentFilter
 import android.content.SharedPreferences
 import androidx.core.content.ContextCompat
 import androidx.core.content.edit
-import im.vector.app.core.debug.DebugReceiver
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.utils.lsFiles
+import com.fvslnlqb.chat.core.debug.DebugReceiver
+import com.fvslnlqb.chat.core.di.DefaultPreferences
+import com.fvslnlqb.chat.core.utils.lsFiles
 import timber.log.Timber
 import javax.inject.Inject
 

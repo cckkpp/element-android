@@ -5,13 +5,13 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.fdroid
+package com.fvslnlqb.chat.fdroid
 
 import android.content.Context
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.fdroid.receiver.AlarmSyncBroadcastReceiver
-import im.vector.app.features.settings.BackgroundSyncMode
-import im.vector.app.features.settings.VectorPreferences
+import com.fvslnlqb.chat.core.di.ActiveSessionHolder
+import com.fvslnlqb.chat.fdroid.receiver.AlarmSyncBroadcastReceiver
+import com.fvslnlqb.chat.features.settings.BackgroundSyncMode
+import com.fvslnlqb.chat.features.settings.VectorPreferences
 import im.vector.lib.core.utils.timer.Clock
 import timber.log.Timber
 import javax.inject.Inject

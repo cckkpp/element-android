@@ -5,13 +5,13 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.analytics
+package com.fvslnlqb.chat.features.debug.analytics
 
 import android.view.View
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import com.fvslnlqb.chat.core.extensions.addFragment
+import com.fvslnlqb.chat.core.platform.VectorBaseActivity
+import com.fvslnlqb.chat.databinding.ActivitySimpleBinding
 
 @AndroidEntryPoint
 class DebugAnalyticsActivity : VectorBaseActivity<ActivitySimpleBinding>() {

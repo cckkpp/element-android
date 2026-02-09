@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.settings
+package com.fvslnlqb.chat.features.debug.settings
 
 import android.content.Context
 import android.util.AttributeSet
@@ -15,7 +15,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.LinearLayout
-import im.vector.application.databinding.ViewBooleanDropdownBinding
+import com.fvslnlqb.chat.databinding.ViewBooleanDropdownBinding
 
 class OverrideDropdownView @JvmOverloads constructor(
         context: Context,

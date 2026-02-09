@@ -7,7 +7,7 @@
 
 @file:Suppress("UNUSED_PARAMETER")
 
-package im.vector.app.receivers
+package com.fvslnlqb.chat.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context

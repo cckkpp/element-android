@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug
+package com.fvslnlqb.chat.features.debug
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -16,13 +16,13 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedDialog
-import im.vector.app.core.utils.onPermissionDeniedSnackbar
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.application.R
-import im.vector.application.databinding.ActivityDebugPermissionBinding
+import com.fvslnlqb.chat.core.platform.VectorBaseActivity
+import com.fvslnlqb.chat.core.utils.checkPermissions
+import com.fvslnlqb.chat.core.utils.onPermissionDeniedDialog
+import com.fvslnlqb.chat.core.utils.onPermissionDeniedSnackbar
+import com.fvslnlqb.chat.core.utils.registerForPermissionsResult
+import com.fvslnlqb.chat.R
+import com.fvslnlqb.chat.databinding.ActivityDebugPermissionBinding
 import im.vector.lib.strings.CommonStrings
 import timber.log.Timber
 

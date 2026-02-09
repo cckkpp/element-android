@@ -5,14 +5,14 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.di
+package com.fvslnlqb.chat.di
 
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ActivityComponent
-import im.vector.app.features.push.NotificationTroubleshootTestManagerFactory
-import im.vector.app.push.fcm.FdroidNotificationTroubleshootTestManagerFactory
+import com.fvslnlqb.chat.features.push.NotificationTroubleshootTestManagerFactory
+import com.fvslnlqb.chat.push.fcm.FdroidNotificationTroubleshootTestManagerFactory
 
 @InstallIn(ActivityComponent::class)
 @Module

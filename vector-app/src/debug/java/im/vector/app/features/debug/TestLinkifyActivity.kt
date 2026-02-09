@@ -5,15 +5,15 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug
+package com.fvslnlqb.chat.features.debug
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import im.vector.application.R
-import im.vector.application.databinding.ActivityTestLinkifyBinding
-import im.vector.application.databinding.ItemTestLinkifyBinding
+import com.fvslnlqb.chat.R
+import com.fvslnlqb.chat.databinding.ActivityTestLinkifyBinding
+import com.fvslnlqb.chat.databinding.ItemTestLinkifyBinding
 
 class TestLinkifyActivity : AppCompatActivity() {
 

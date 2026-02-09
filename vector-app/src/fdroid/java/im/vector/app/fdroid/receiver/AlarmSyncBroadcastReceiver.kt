@@ -5,7 +5,7 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.fdroid.receiver
+package com.fvslnlqb.chat.fdroid.receiver
 
 import android.annotation.SuppressLint
 import android.app.AlarmManager
@@ -16,9 +16,9 @@ import android.content.Intent
 import android.os.Build
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.core.platform.PendingIntentCompat
-import im.vector.app.core.services.VectorSyncAndroidService
+import com.fvslnlqb.chat.core.extensions.singletonEntryPoint
+import com.fvslnlqb.chat.core.platform.PendingIntentCompat
+import com.fvslnlqb.chat.core.services.VectorSyncAndroidService
 import im.vector.lib.core.utils.timer.Clock
 import org.matrix.android.sdk.api.session.sync.job.SyncAndroidService
 import timber.log.Timber

@@ -6,14 +6,14 @@
  */
 @file:Suppress("UNUSED_PARAMETER")
 
-package im.vector.app.push.fcm
+package com.fvslnlqb.chat.push.fcm
 
 import android.content.Context
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.pushers.FcmHelper
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.fdroid.BackgroundSyncStarter
-import im.vector.app.fdroid.receiver.AlarmSyncBroadcastReceiver
+import com.fvslnlqb.chat.core.di.ActiveSessionHolder
+import com.fvslnlqb.chat.core.pushers.FcmHelper
+import com.fvslnlqb.chat.core.pushers.PushersManager
+import com.fvslnlqb.chat.fdroid.BackgroundSyncStarter
+import com.fvslnlqb.chat.fdroid.receiver.AlarmSyncBroadcastReceiver
 import javax.inject.Inject
 
 /**

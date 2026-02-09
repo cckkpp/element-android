@@ -5,9 +5,9 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.leak
+package com.fvslnlqb.chat.features.debug.leak
 
-import im.vector.app.core.platform.VectorViewModelAction
+import com.fvslnlqb.chat.core.platform.VectorViewModelAction
 
 sealed interface DebugMemoryLeaksViewActions : VectorViewModelAction {
     data class EnableMemoryLeaksAnalysis(val isEnabled: Boolean) : DebugMemoryLeaksViewActions

@@ -5,13 +5,13 @@
  * Please see LICENSE files in the repository root for full details.
  */
 
-package im.vector.app.features.debug.sas
+package com.fvslnlqb.chat.features.debug.sas
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
+import com.fvslnlqb.chat.core.extensions.cleanup
+import com.fvslnlqb.chat.core.extensions.configureWith
+import com.fvslnlqb.chat.databinding.FragmentGenericRecyclerBinding
 import org.matrix.android.sdk.api.crypto.getAllVerificationEmojis
 
 class DebugSasEmojiActivity : AppCompatActivity() {
